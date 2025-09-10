@@ -20,7 +20,12 @@ def lambda_handler(event, context):
         print(e)
         print('Error getting object {} from bucket {}. Make sure they exist and your bucket is in the same region as this function.'.format(key, bucket))
         raise e
-
+///////
+sudo apt update
+	sudo apt install mysql-server
+sudo mysql
+	create database test;
+use test
 
         ////////
         #!/bin/bash
